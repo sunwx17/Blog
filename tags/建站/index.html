@@ -39,7 +39,6 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-	<meta http-equiv="Access-Control-Allow-Origin" content="*">
 	
     <!-- Title -->
     
@@ -80,7 +79,7 @@
     <!-- Import CSS -->
     
         <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?D6hjv31W+IVw/OMyTb4mHQ==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
-        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?biIh76K0aIdmiSJi4Nqhlg==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?LA6VycV/nsIpbi1Bj4h0aA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
             
@@ -740,9 +739,7 @@ $(document).ready(function(){
   
   
   
-  
-  <!--skplayer-->
-  <script src="/js/skPlayer.min.js"></script>
+
 
 <link rel="stylesheet" href="/css/shuoshuo.css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
@@ -1087,7 +1084,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
                     
 
-					<script type="text/javascript">
+					<iframe id="music_163" frameborder="no" border="0" marginwidth="0" marginheight="0" width="400" height="280" src="//music.163.com/outchain/player?type=0&id=2108961358&auto=1&height=430"></iframe>
+
+<script type="text/javascript">
   function openshut(souc_, tar_){
   var souc = document.getElementById(souc_);
   var tar = document.getElementById(tar_);
@@ -1114,10 +1113,11 @@ It will not impact the appearance and can give developers a lot of support :)
     <i class="fa fa-music my_button" aria-hidden="true"></i>
   </span>
 </div>
+
 <script>
   $("div").on('click','#now',function(){
   var souc = document.getElementById("now");
-  var tar = document.getElementById("skPlayer");
+  var tar = document.getElementById("music_163");
   if($(tar).hasClass("act")){
   souc.style.color = "#ffffff";
   $(tar).removeClass("act");
@@ -1131,34 +1131,6 @@ It will not impact the appearance and can give developers a lot of support :)
   })
   ;
 </script>
-
-
-
-
-
-<div id="skPlayer">
-  <script>
-    var player = new skPlayer({
-    autoplay: false,
-    //可选项,自动播放,默认为false,true/false
-    listshow: true,
-    //可选项,列表显示,默认为true,true/false
-    mode: 'listloop',
-    //可选项,循环模式,默认为'listloop'
-    //'listloop',列表循环
-    //'singleloop',单曲循环
-    music: {
-    //必需项,音乐配置
-    type: 'cloud',
-    //必需项,网易云方式指定填'cloud'
-    source: 2108961358
-    //必需项,网易云音乐歌单id
-    //登录网易云网页版,在网页地址中拿到
-    // ... playlist?id=317921676
-    }
-    });
-  </script>
-</div>
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom" style="display:none;position: absolute;top:100%">
