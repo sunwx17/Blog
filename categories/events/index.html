@@ -38,7 +38,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
 	
     <!-- Title -->
     
@@ -945,7 +945,7 @@ $(document).ready(function(){
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/07/">七月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -963,7 +963,7 @@ $(document).ready(function(){
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/events/">记事簿<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/categories/technology/">技术向<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/events/">记事簿<span class="sidebar_archives-count">1</span></a>
             </ul>
         </li>
         
@@ -1092,7 +1092,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
                     
 
-					<iframe id="music_163" frameborder="no" border="0" marginwidth="0" marginheight="0" width="400" height="280" src="//music.163.com/outchain/player?type=0&id=2108961358&auto=1&height=430"></iframe>
+					<!-- <iframe id="music_163" frameborder="no" border="0" marginwidth="0" marginheight="0" width="400" height="280" src="//music.163.com/outchain/player?type=0&id=2108961358&auto=1&height=430"></iframe> -->
 
 <script type="text/javascript">
   function openshut(souc_, tar_){
@@ -1139,6 +1139,19 @@ It will not impact the appearance and can give developers a lot of support :)
   })
   ;
 </script>
+
+<!-- require APlayer -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+
+<div id="music_163"
+    class="aplayer"
+    data-id="2108961358"
+    data-server="netease"
+    data-type="playlist">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom" style="display:none;position: absolute;top:100%">

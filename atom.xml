@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.sunweixiao.com/"/>
-  <updated>2018-07-05T03:56:58.966Z</updated>
+  <updated>2018-07-18T00:22:51.784Z</updated>
   <id>https://blog.sunweixiao.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Py：从零开始的python解释器</title>
+    <link href="https://blog.sunweixiao.com/posts/py_zerogarahajimero_python_interpreter/"/>
+    <id>https://blog.sunweixiao.com/posts/py_zerogarahajimero_python_interpreter/</id>
+    <published>2018-07-17T23:27:00.000Z</published>
+    <updated>2018-07-18T00:22:51.784Z</updated>
+    
+    <content type="html"><![CDATA[<p>&emsp;   虽然看上去是写个解释器这么个高大上的东西，但毕竟只是一个OOP作业，<br><a id="more"></a></p><h2 id="h2_1"> <i class="fa fa-leaf" aria-hidden="true"></i> 写在前面的话 </h2><p>&emsp;   本文虽然是关于写一个python解释器，但<strong>不涉及</strong>任何编译原理以及语法分析体系。一切都是一个普通大一学生的笨拙的思考，知识水平非常低下，完全是站在很低的观点上思考问题，可能不会对读者有任何观点上的启发。</p><p>&emsp;   阅读本文，你仅需要了解C++的主要语法、<code>STL</code>的基本使用、<code>regex</code>正则表达式的基本使用(这一部分我会在文中给出)。</p><p>&emsp;   <a href="https://github.com/sunwx17/OOPython" target="_blank" rel="noopener">这里是项目地址</a>，事实上，相当部分的代码非常丑陋，所以大家可以选择忽略掉它(手动滑稽)。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;emsp;   虽然看上去是写个解释器这么个高大上的东西，但毕竟只是一个OOP作业，&lt;br&gt;
+    
+    </summary>
+    
+      <category term="技术向" scheme="https://blog.sunweixiao.com/categories/technology/"/>
+    
+    
+      <category term="python" scheme="https://blog.sunweixiao.com/tags/python/"/>
+    
+      <category term="C++" scheme="https://blog.sunweixiao.com/tags/C/"/>
+    
+      <category term="大作业" scheme="https://blog.sunweixiao.com/tags/%E5%A4%A7%E4%BD%9C%E4%B8%9A/"/>
+    
+  </entry>
   
   <entry>
     <title>你好，世界！</title>
