@@ -1170,10 +1170,39 @@ It will not impact the appearance and can give developers a lot of support :)
     class="aplayer"
     data-id="2108961358"
     data-server="netease"
-    data-type="playlist">
+    data-type="playlist"
+    data-theme="#C73E3A"
+    style="max-height: 260px;background-color: rgba(255,255,255,0.6)">
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
+
+<style>
+.aplayer .aplayer-list{
+    max-height: 150px!important;
+    background-image: url(https://picture-1256084113.cos.ap-beijing.myqcloud.com/function-image/music-bm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.aplayer .aplayer-lrc::before,
+.aplayer .aplayer-lrc::after{
+    display:none!important;
+}
+
+.aplayer .aplayer-list ol li.aplayer-list-light {
+    background: #E87A9060;
+}
+
+.aplayer .aplayer-list ol li:hover {
+    background: #E87A9060;
+}
+
+.aplayer .aplayer-list ol li{
+    border-top-color: #ffffff00
+}
+</style>
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom" style="display:none;position: absolute;top:100%">
