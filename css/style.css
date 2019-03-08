@@ -893,6 +893,7 @@ a {
 }
 #scheme-Paradox #post-content img {
     max-width: calc(100% + 32px);
+	min-width: calc(100% + 32px);
     margin-left: -16px;
 }
 #scheme-Paradox .page-navigator {
